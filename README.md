@@ -28,6 +28,8 @@ Mods need Claude Code 2.1.288 or later.
 
 Claude often explains flows with Mermaid. This mod replaces each closed ` ```mermaid ` block in a reply with the rendered diagram, drawn by [pele](https://github.com/obsidianmd/pele), a small synchronous Mermaid renderer bundled into the mod. No browser, Puppeteer, or network access is involved.
 
+![mermaid-view in VS Code: Claude answers with a mermaid block, which is drawn as a diagram in the reply](docs/mermaid-view-demo.gif)
+
 - **Where it draws:** VS Code, the Claude Code desktop app, and mobile. The terminal is left as it is.
 - **Copy source:** a "Copy mermaid source" button sits under every diagram.
 - **Errors:** a block pele cannot parse stays as code, with pele's error and line number under it.
