@@ -1,0 +1,17 @@
+{
+  "name": "mermaid-view",
+  "version": "0.1.0",
+  "author": { "name": "Amo Wu" },
+  "license": "MIT",
+  "repository": "https://github.com/amowu/claude-code-mods",
+  "description": "Draws ```mermaid blocks in Claude's replies as diagrams (Pele) in VS Code, the desktop app and mobile",
+  "userConfig": {
+    "theme": {
+      "type": "string",
+      "title": "Diagram theme",
+      "description": "auto follows the editor's light or dark theme; light or dark pins it",
+      "default": "auto",
+      "options": ["auto", "light", "dark"]
+    }
+  }
+}

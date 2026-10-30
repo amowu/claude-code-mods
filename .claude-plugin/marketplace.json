@@ -1,0 +1,12 @@
+{
+  "name": "amowu-mods",
+  "owner": { "name": "Amo Wu" },
+  "description": "Claude Code mods by Amo Wu",
+  "plugins": [
+    {
+      "name": "mermaid-view",
+      "source": "./mods/mermaid-view",
+      "description": "Draws ```mermaid blocks in Claude's replies as diagrams in VS Code, the desktop app and mobile"
+    }
+  ]
+}
